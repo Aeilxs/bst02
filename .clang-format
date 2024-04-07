@@ -1,0 +1,23 @@
+Language: Cpp
+BasedOnStyle: LLVM
+IndentWidth: 4
+UseTab: Never
+
+ColumnLimit: 100
+
+IncludeCategories:
+    - Regex: '^".*"'
+      Priority: 1
+    - Regex: '^<.*>'
+      Priority: 2
+IncludeBlocks: Preserve
+
+AlignAfterOpenBracket: BlockIndent
+AlignConsecutiveMacros: true
+# AlignConsecutiveAssignments: true
+
+BinPackArguments: false
+BinPackParameters: false
+
+AllowShortIfStatementsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: None
